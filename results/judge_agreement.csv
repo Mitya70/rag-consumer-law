@@ -1,0 +1,11 @@
+qid,chunking,retriever,prompt,subset,manual_correctness,j1_correctness,j2_correctness,j3_correctness,manual_abstained,j1_abstained,j2_abstained,j3_abstained,manual_faithful,j1_faithful,j2_faithful,j3_faithful,note
+q28,part,dense_large+rerank,strict,formal,2,2,2,2,0,0,0,0,1,1,1,1,"верно: 10 дней, подтверждено ст. 31; ответ очень краткий"
+q15,part,dense_large+rerank,strict_fewshot,formal,2,2,2,2,0,0,0,0,1,1,1,1,"верно: 45 дней, подтверждено ст. 20"
+q71,part,dense_large+rerank,strict_fewshot,colloquial,1,1,1,1,0,0,0,0,1,1,1,1,"верные общие права и тезис про чек, но нет экспертизы за счёт продавца, бремени доказывания и срока 10 дней"
+q68,part,dense_large+rerank,strict_fewshot,colloquial,1,2,1,1,0,0,0,0,1,1,1,1,полное возмещение вреда верно; нет морального вреда (ст. 15) и тезиса про любого потерпевшего; слово «поставщика» в контексте отсутствует (мелочь)
+q52,part,dense_large+rerank,strict_fewshot,formal,,,2,2,1,1,1,1,1,1,1,1,верный отказ
+q45,part,dense_large+rerank,naive,formal,,,2,2,1,1,1,1,1,1,1,1,верный отказ
+q71,-,none,no_context,colloquial,1,2,2,1,0,0,0,0,n/a,,,,"общий порядок действий верен, но нет экспертизы/бремени доказывания; ошибки: срок 14 дней для брака, госпошлина (потребители освобождены, ст. 17)"
+q35,-,none,no_context,formal,2,2,2,2,0,0,0,0,n/a,,,,"суть определения верна (личные цели, не предпринимательские); лишние неподтверждённые детали (14 дней, ст. 450) и английское слово в тексте"
+q35,part,dense_large+rerank,naive,formal,2,2,2,2,0,0,0,0,1,1,1,1,"верно, подтверждено ст. 492"
+q11,part,dense_large+rerank,naive,formal,2,2,2,2,0,0,0,0,1,1,1,1,"верно: 10 дней, подтверждено ст. 16/22"

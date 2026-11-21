@@ -1,0 +1,19 @@
+{
+  "retrieved": "2026-11-21",
+  "sources": {
+    "zpp": {
+      "wikisource_page": "Закон РФ от 07.02.1992 № 2300-I",
+      "revid": 5086268,
+      "revision_timestamp": "2023-12-30T10:36:54Z",
+      "articles": 51
+    },
+    "gk": {
+      "wikisource_page": "Гражданский кодекс РФ/Глава 30",
+      "revid": 5617463,
+      "revision_timestamp": "2025-08-30T03:50:36Z",
+      "articles": 14
+    }
+  },
+  "total_articles": 65,
+  "total_chars": 117332
+}

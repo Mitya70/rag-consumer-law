@@ -1,0 +1,43 @@
+вопросов с ответом: 59 (formal 42, colloquial 17); статей в корпусе: 65
+
+== article: 65 чанков, средняя длина 1895 симв.
+  bm25                   formal hit@3=0.86 mrr=0.760 | colloquial hit@1=0.06 hit@3=0.29 mrr=0.211
+  tfidf_char             formal hit@3=0.88 mrr=0.796 | colloquial hit@1=0.12 hit@3=0.35 mrr=0.281
+  dense_small            formal hit@3=1.00 mrr=0.948 | colloquial hit@1=0.65 hit@3=0.94 mrr=0.789
+  dense_large            formal hit@3=1.00 mrr=0.972 | colloquial hit@1=0.76 hit@3=0.94 mrr=0.858
+  hybrid_small           formal hit@3=0.93 mrr=0.878 | colloquial hit@1=0.35 hit@3=0.65 mrr=0.540
+  hybrid_large           formal hit@3=0.95 mrr=0.896 | colloquial hit@1=0.29 hit@3=0.65 mrr=0.501
+  bm25+rerank            formal hit@3=0.98 mrr=0.969 | colloquial hit@1=0.65 hit@3=0.71 mrr=0.691
+  dense_large+rerank     formal hit@3=0.98 mrr=0.956 | colloquial hit@1=0.88 hit@3=0.94 mrr=0.926
+
+== part: 181 чанков, средняя длина 749 симв.
+  bm25                   formal hit@3=0.86 mrr=0.774 | colloquial hit@1=0.12 hit@3=0.29 mrr=0.230
+  tfidf_char             formal hit@3=0.88 mrr=0.806 | colloquial hit@1=0.12 hit@3=0.29 mrr=0.263
+  dense_small            formal hit@3=0.95 mrr=0.963 | colloquial hit@1=0.65 hit@3=0.88 mrr=0.774
+  dense_large            formal hit@3=1.00 mrr=0.984 | colloquial hit@1=0.94 hit@3=1.00 mrr=0.971
+  hybrid_small           formal hit@3=0.95 mrr=0.906 | colloquial hit@1=0.24 hit@3=0.65 mrr=0.451
+  hybrid_large           formal hit@3=0.95 mrr=0.915 | colloquial hit@1=0.41 hit@3=0.82 mrr=0.615
+  bm25+rerank            formal hit@3=0.98 mrr=0.976 | colloquial hit@1=0.59 hit@3=0.65 mrr=0.618
+  dense_large+rerank     formal hit@3=1.00 mrr=1.000 | colloquial hit@1=1.00 hit@3=1.00 mrr=1.000
+
+== win500: 316 чанков, средняя длина 546 симв.
+  bm25                   formal hit@3=0.81 mrr=0.777 | colloquial hit@1=0.24 hit@3=0.29 mrr=0.303
+  tfidf_char             formal hit@3=0.93 mrr=0.863 | colloquial hit@1=0.18 hit@3=0.29 mrr=0.253
+  dense_small            formal hit@3=0.98 mrr=0.952 | colloquial hit@1=0.76 hit@3=0.88 mrr=0.838
+  dense_large            formal hit@3=0.98 mrr=0.966 | colloquial hit@1=0.82 hit@3=0.94 mrr=0.882
+  hybrid_small           formal hit@3=0.95 mrr=0.905 | colloquial hit@1=0.35 hit@3=0.65 mrr=0.541
+  hybrid_large           formal hit@3=0.95 mrr=0.908 | colloquial hit@1=0.41 hit@3=0.76 mrr=0.591
+  bm25+rerank            formal hit@3=0.98 mrr=0.960 | colloquial hit@1=0.53 hit@3=0.71 mrr=0.618
+  dense_large+rerank     formal hit@3=1.00 mrr=0.988 | colloquial hit@1=0.94 hit@3=1.00 mrr=0.971
+
+== win1000: 166 чанков, средняя длина 924 симв.
+  bm25                   formal hit@3=0.86 mrr=0.780 | colloquial hit@1=0.12 hit@3=0.29 mrr=0.237
+  tfidf_char             formal hit@3=0.93 mrr=0.832 | colloquial hit@1=0.18 hit@3=0.29 mrr=0.270
+  dense_small            formal hit@3=0.98 mrr=0.964 | colloquial hit@1=0.71 hit@3=1.00 mrr=0.833
+  dense_large            formal hit@3=1.00 mrr=0.988 | colloquial hit@1=0.88 hit@3=1.00 mrr=0.931
+  hybrid_small           formal hit@3=0.98 mrr=0.955 | colloquial hit@1=0.41 hit@3=0.65 mrr=0.570
+  hybrid_large           formal hit@3=0.98 mrr=0.944 | colloquial hit@1=0.35 hit@3=0.59 mrr=0.540
+  bm25+rerank            formal hit@3=0.98 mrr=0.976 | colloquial hit@1=0.59 hit@3=0.71 mrr=0.637
+  dense_large+rerank     formal hit@3=1.00 mrr=1.000 | colloquial hit@1=0.94 hit@3=1.00 mrr=0.961
+
+задержки API: [{'step': 'embed_small', 'model': 'am/nemotron-3-embed-1b', 'median_s': 0.922520637512207, 'n': 5}, {'step': 'embed_large', 'model': 'am/nemotron-3.5-embed-8b', 'median_s': 2.273937225341797, 'n': 5}, {'step': 'rerank_top20', 'model': 'am/nemotron-3.5-rerank-8b', 'median_s': 2.354708194732666, 'n': 5}]

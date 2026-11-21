@@ -1,0 +1,4 @@
+step,model,median_s,n
+embed_small,am/nemotron-3-embed-1b,0.923,5
+embed_large,am/nemotron-3.5-embed-8b,2.274,5
+rerank_top20,am/nemotron-3.5-rerank-8b,2.355,5

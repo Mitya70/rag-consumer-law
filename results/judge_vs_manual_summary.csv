@@ -1,0 +1,10 @@
+judge,metric,n,agreement,kappa
+j1,correctness,8,0.75,0.385
+j1,abstained,10,1.0,1.0
+j1,faithful,8,1.0,nan
+j2,correctness,8,0.875,0.714
+j2,abstained,10,1.0,1.0
+j2,faithful,8,1.0,nan
+j3,correctness,8,1.0,1.0
+j3,abstained,10,1.0,1.0
+j3,faithful,8,1.0,nan

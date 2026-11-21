@@ -1,0 +1,23 @@
+# Секреты и локальные файлы
+.env
+*.env
+!.env.example
+
+# Кэш запросов к API (воспроизводимо пересоздаётся)
+.cache/
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Крупные файлы моделей и индексов
+*.onnx
+*.safetensors
+*.bin
+chroma_db/
+
+# Служебный чекпоинт работы
+.progress.md
