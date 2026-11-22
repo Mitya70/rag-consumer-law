@@ -1,0 +1,5 @@
+judge,judge_model,temperature,runs,correct_mean_0_2_mean,correct_mean_0_2_std,correct_full_rate_mean,correct_full_rate_std,faithful_rate_mean,faithful_rate_std,abstain_correct_rate_mean,abstain_correct_rate_std,unstable_share_answerable,unstable_share_unanswerable
+j1,ag/gemini-3-flash,0.0,3,1.892,0.035,0.915,0.045,0.918,0.017,0.8,0.0,0.186,0.0
+j1,ag/gemini-3-flash,0.7,3,1.87,0.035,0.887,0.035,0.913,0.015,0.8,0.0,0.186,0.0
+j2,am/laguna-xs-2.1,0.0,3,1.966,0.034,0.972,0.026,0.947,0.022,0.8,0.0,0.068,0.0
+j2,am/laguna-xs-2.1,0.7,3,1.926,0.043,0.938,0.026,0.913,0.025,0.767,0.058,0.119,0.1
